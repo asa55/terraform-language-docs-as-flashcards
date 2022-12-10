@@ -1,6 +1,6 @@
 # terraform-language-docs-as-flashcards
 
-Instructions to download [the Anki flashcard deck can be found by clicking here](https://github.com/asa55/terraform-language-docs-as-flashcards/releases/), or by navigating to the Releases area of this project. To see what content will be added in the future, [check out this project's Roadmap by clicking here](https://github.com/users/asa55/projects/3). 
+Instructions to download [the Anki flashcard deck can be found by clicking here](https://github.com/asa55/terraform-language-docs-as-flashcards/releases/), or by navigating to the Releases area of this project. To see what content will be added in the future, [check out this project's Roadmap by clicking here](https://github.com/users/asa55/projects/6). 
 
 ## What this repository does
 
