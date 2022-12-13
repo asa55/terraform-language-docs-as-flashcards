@@ -115,9 +115,9 @@ resource "aws_vpc" "main" {
   cidr_block = var.base_cidr_block
 }
 
-<BLOCK `_____`> "<BLOCK `_____`>" "<BLOCK `_____`>" {
+[BLOCK `_____`] "[BLOCK `_____`]" "[BLOCK `_____`]" {
   # Block `_____`
-  <IDENTIFIER> = <`_____`> # Argument
+  [IDENTIFIER] = [`_____`] # Argument
 }
 ```
 
@@ -128,8 +128,8 @@ resource "aws_vpc" "main" {
   cidr_block = var.base_cidr_block
 }
 
-<BLOCK **TYPE**> "<BLOCK **LABEL**>" "<BLOCK **LABEL**>" {
+[BLOCK **TYPE**] "[BLOCK **LABEL**]" "[BLOCK **LABEL**]" {
   # Block **body**
-  <IDENTIFIER> = <**EXPRESSION**> # Argument
+  [IDENTIFIER] = [**EXPRESSION**] # Argument
 }
 ```
