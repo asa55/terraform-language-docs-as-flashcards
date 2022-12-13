@@ -110,31 +110,18 @@ The ordering of blocks and the files they are organized into are generally **not
 
 ##
 
-Fill in the blanks:
-Question:
+Describe
 
 ```
 resource "aws_vpc" "main" {
   cidr_block = var.base_cidr_block
-}
-
-[BLOCK `_____`] "[BLOCK `_____`]" "[BLOCK `_____`]" {
-  # Block `_____`
-  [IDENTIFIER] = [`_____`] # Argument
 }
 ```
 
 %
 
-Answer:
-
-```
-resource "aws_vpc" "main" {
-  cidr_block = var.base_cidr_block
-}
-
-<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
-  # Block body
-  <IDENTIFIER> = <EXPRESSION> # Argument
-}
-```
+- Block Type is `resource`
+- Block Label is `"aws_vpc" "main"`
+- Block Body includes everything inside the curly braces `{ }`
+- Identifier is `cidr_block`
+- Argument/Expression is `var.base_cidr_block`
