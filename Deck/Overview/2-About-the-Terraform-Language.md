@@ -110,6 +110,9 @@ The ordering of blocks and the files they are organized into are generally **not
 
 ##
 
+Fill in the blanks:
+Question:
+
 ```
 resource "aws_vpc" "main" {
   cidr_block = var.base_cidr_block
@@ -123,13 +126,15 @@ resource "aws_vpc" "main" {
 
 %
 
+Answer:
+
 ```
 resource "aws_vpc" "main" {
   cidr_block = var.base_cidr_block
 }
 
-[BLOCK **TYPE**] "[BLOCK **LABEL**]" "[BLOCK **LABEL**]" {
-  # Block **body**
-  [IDENTIFIER] = [**EXPRESSION**] # Argument
+<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
+  # Block body
+  <IDENTIFIER> = <EXPRESSION> # Argument
 }
 ```
